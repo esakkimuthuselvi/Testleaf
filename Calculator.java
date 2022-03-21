@@ -1,28 +1,30 @@
-package week1.day1;
-
-public class Calculator {
-	
-	public int getAdd(int num1, int num2) {
-		return  num1+num2;
-		
-	}
-	public double getSub(double num1, double num2) {
-		return  num1-num2;
-	}
-    public double getMul(double num1, double num2) {
-    	return  num1*num2;
-	}
-    public int getdivide(int num1, int num2) {
-    	return  num1/num2;
-	}
-	public static void main(String args[])
+package week1.day2;
+ class Calculator {
+	public int getAdd(int num1, int num2, int num3)
 	{
-		Calculator calc=new Calculator();
-		System.out.println(calc.getAdd(10,15));
-		System.out.println(calc.getSub(10.5,9.2));
-		System.out.println(calc.getMul(6.3,9.2));
-		System.out.println(calc.getdivide(15,5));
-		//calc.getAdd(10,15);
+		return num1+num2+num3;
 	}
-
+	public int getSub(int num1, int num2) {
+		return num1-num2;
+	}
+	public double getMul(double num1,double num2) {
+		return num1*num2;
+	}
+    public float getdivide(float num1, float num2) {
+		return num1/num2;
+	}
+    
+    
 }
+//public class MyCalculator{
+//	public static void main(String args[]) {
+//		Calculator nCalc= new Calculator();
+//		nCalc.getAdd(20, 34, 789);
+////	    System.out.println(nCalc.getAdd(20, 34, 789));
+////	    System.out.println(nCalc.getSub(560, 490));
+////	    System.out.println(nCalc.getMul(5.3, 2));
+////	    System.out.println(nCalc.getdivide(34.67f, 2.45f));
+//    }
+//}
+
+
